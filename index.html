@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BOX DEPORTES | Tienda Deportiva</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="header">
+    <a class="brand" href="#inicio">
+      <img src="img/logo.png" alt="BOX DEPORTES" onerror="this.src='https://placehold.co/140x50/111111/ffffff?text=BOX+DEPORTES'">
+    </a>
+
+    <nav class="nav">
+      <a href="#inicio" class="active">INICIO</a>
+      <a href="#tendencias">TENDENCIAS</a>
+      <a href="#catalogo">CATÁLOGO</a>
+      <a href="#contacto">CONTACTO</a>
+    </nav>
+
+    <div class="header-actions">
+      <button class="cart-btn" id="cartBtn">
+        <i class="fa-solid fa-cart-shopping"></i> <span id="cartCount">0</span> <b>CARRITO</b>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO BANNER -->
+    <section class="hero-container" id="inicio">
+      <div class="hero-card">
+        <div class="hero-text">
+          <h1>TU TIENDA<br><span class="highlight">DEPORTIVA</span></h1>
+          <p class="subtext">ZAPATILLAS • INDUMENTARIA • ACCESORIOS</p>
+          <a class="btn-whatsapp-hero" id="heroWhatsapp" target="_blank" rel="noopener">
+            <i class="fa-brands fa-whatsapp"></i> PEDIR POR WHATSAPP
+          </a>
+        </div>
+
+        <div class="hero-image-wrap">
+          <img src="https://pngimg.com/d/running_shoes_PNG5816.png" alt="Zapatilla Running" class="hero-shoe">
+        </div>
+
+        <div class="hero-benefits">
+          <div><i class="fa-solid fa-shield-halved"></i> COMPRA SEGURA</div>
+          <div><i class="fa-solid fa-truck-fast"></i> ENVÍOS A TODO EL PAÍS</div>
+          <div><i class="fa-solid fa-tag"></i> MEJORES PRECIOS</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECCIÓN TENDENCIAS (ESTILO NIKE) -->
+    <section id="tendencias" class="section tendencias-section">
+      <div class="tendencias-header">
+        <h2 class="tendencias-title">TENDENCIAS</h2>
+        <p class="tendencias-subtitle">Diseños clásicos y lo último en tecnología para armar tu estilo.</p>
+      </div>
+
+      <div class="tendencias-grid">
+        <!-- Fila 1 -->
+        <button class="trend-item" data-filter="Air Jordan 1" tabindex="0" title="Ver Air Jordan 1">
+          <div class="trend-img-box">
+            <img src="imgproductos/AIR+JORDAN+1.PNG" alt="Air Jordan 1">
+          </div>
+          <span>Air Jordan 1</span>
+        </button>
+
+        <button class="trend-item" data-filter="Dunk" tabindex="0" title="Ver Dunk">
+          <div class="trend-img-box">
+            <img src="https://pngimg.com/d/running_shoes_PNG5816.png" alt="Dunk">
+          </div>
+          <span>Dunk</span>
+        </button>
+
+        <button class="trend-item" data-filter="Air Force 1" tabindex="0" title="Ver Air Force 1">
+          <div class="trend-img-box">
+            <img src="https://pngimg.com/d/running_shoes_PNG5816.png" alt="Air Force 1">
+          </div>
+          <span>Air Force 1</span>
+        </button>
+
+        <button class="trend-item" data-filter="Air Max" tabindex="0" title="Ver Air Max">
+          <div class="trend-img-box">
+            <img src="https://pngimg.com/d/running_shoes_PNG5816.png" alt="Air Max">
+          </div>
+          <span>Air Max</span>
+        </button>
+
+        <button class="trend-item" data-filter="ACG" tabindex="0" title="Ver ACG">
+          <div class="trend-img-box">
+            <img src="https://pngimg.com/d/running_shoes_PNG5816.png" alt="ACG">
+          </div>
+          <span>ACG</span>
+        </button>
+
+        <button class="trend-item" data-filter="Racing" tabindex="0" title="Ver Racing">
+          <div class="trend-img-box">
+            <img src="https://pngimg.com/d/running_shoes_PNG5816.png" alt="Racing">
+          </div>
+          <span>Racing</span>
+        </button>
+
+        <button class="trend-item" data-filter="Camisetas" tabindex="0" title="Ver Camisetas">
+          <div class="trend-img-box">
+            <img src="https://pngimg.com/d/running_shoes_PNG5816.png" alt="Camisetas">
+          </div>
+          <span>Camisetas</span>
+        </button>
+
+        <!-- Fila 2 -->
+        <button class="trend-item" data-filter="Springboks" tabindex="0" title="Ver Springboks">
+          <div class="trend-img-box">
+            <img src="https://pngimg.com/d/running_shoes_PNG5816.png" alt="Springboks">
+          </div>
+          <span>Springboks</span>
+        </button>
+
+        <button class="trend-item" data-filter="Pegasus" tabindex="0" title="Ver Pegasus">
+          <div class="trend-img-box">
+            <img src="https://pngimg.com/d/running_shoes_PNG5816.png" alt="Pegasus">
+          </div>
+          <span>Pegasus</span>
+        </button>
+
+        <button class="trend-item" data-filter="Vomero" tabindex="0" title="Ver Vomero">
+          <div class="trend-img-box">
+            <img src="imgproductos/Nike+Vomero+18.JFIF" alt="Vomero">
+          </div>
+          <span>Vomero</span>
+        </button>
+
+        <button class="trend-item" data-filter="Botines" tabindex="0" title="Ver Botines">
+          <div class="trend-img-box">
+            <img src="https://pngimg.com/d/running_shoes_PNG5816.png" alt="Botines">
+          </div>
+          <span>Botines</span>
+        </button>
+
+        <button class="trend-item" data-filter="Metcon" tabindex="0" title="Ver Metcon">
+          <div class="trend-img-box">
+            <img src="imgproductos/NIKE+METCON+10.PNG" alt="Metcon">
+          </div>
+          <span>Metcon</span>
+        </button>
+
+        <button class="trend-item" data-filter="Nike Pro" tabindex="0" title="Ver Nike Pro">
+          <div class="trend-img-box">
+            <img src="https://pngimg.com/d/running_shoes_PNG5816.png" alt="Nike Pro">
+          </div>
+          <span>Nike Pro</span>
+        </button>
+
+        <button class="trend-item" data-filter="Retro" tabindex="0" title="Ver Retro">
+          <div class="trend-img-box">
+            <img src="https://pngimg.com/d/running_shoes_PNG5816.png" alt="Retro">
+          </div>
+          <span>Retro</span>
+        </button>
+      </div>
+    </section>
+
+    <!-- PRODUCTOS / CATÁLOGO -->
+    <section id="catalogo" class="section">
+      <div class="section-title">
+        <span></span>
+        <h2>CATÁLOGO DE PRODUCTOS</h2>
+        <span></span>
+      </div>
+
+      <div class="filters-wrap">
+        <div class="search-box">
+          <i class="fa-solid fa-magnifying-glass"></i>
+          <input id="searchInput" type="search" placeholder="Buscar por modelo (ej: Air Jordan, Dunk, Pegasus, Botines)...">
+        </div>
+        <select id="categorySelect">
+          <option value="Todos">Todas las categorías</option>
+          <option value="Zapatillas">Zapatillas</option>
+          <option value="Indumentaria">Indumentaria</option>
+          <option value="Accesorios">Accesorios</option>
+          <option value="Ofertas">Ofertas</option>
+        </select>
+      </div>
+
+      <div id="activeFilterBadge" class="filter-badge-wrap" style="display:none;">
+        <span>Filtrado por: <strong id="filterBadgeText"></strong></span>
+        <button id="clearFilterBtn">✕ Limpiar filtro</button>
+      </div>
+
+      <div id="productsGrid" class="products-grid"></div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="custom-footer" id="contacto">
+    <div class="footer-container">
+      <div class="footer-col brand-col">
+        <h2 class="footer-title">BOX DEPORTES</h2>
+        <p class="footer-desc">Indumentaria y calzado deportivo de primer nivel. Catálogo actualizado, consultá y reservá tu talle por WhatsApp.</p>
+        <a id="footerWhatsappBtn" target="_blank" rel="noopener" class="footer-wa-btn">
+          <i class="fa-brands fa-whatsapp"></i> <span id="footerPhoneDisplay">+54 9 11 2406-3322</span>
+        </a>
+      </div>
+      <div class="footer-col">
+        <h3>CONTACTO</h3>
+        <p>Av. Santa Fe 1681, CABA</p>
+        <p>Lun a Sáb 10 a 19:30 hs</p>
+      </div>
+      <div class="footer-col">
+        <h3>MEDIOS DE PAGO</h3>
+        <p>Tarjeta en el local (3 cuotas sin interés)</p>
+        <p>6 cuotas — consultar</p>
+        <p>Transferencia bancaria</p>
+      </div>
+      <div class="footer-col">
+        <h3>SECCIONES</h3>
+        <ul class="footer-links">
+          <li><a href="#tendencias">Tendencias</a></li>
+          <li><a href="#catalogo">Calzado Running</a></li>
+          <li><a href="#catalogo">Urbanas & Retro</a></li>
+          <li><a href="#catalogo">Indumentaria y Camisetas</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="footer-bottom-container">
+        <span>© 2026 BOX DEPORTES — Todos los derechos reservados.</span>
+        <span>Catálogo interactivo conectado a WhatsApp</span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- BOTON FLOTANTE WHATSAPP -->
+  <a class="whatsapp-float-wrap" id="floatingWhatsapp" target="_blank" rel="noopener" aria-label="Escribinos por WhatsApp">
+    <span class="tooltip">Escribinos<br>por WhatsApp</span>
+    <div class="whatsapp-float-btn">
+      <i class="fa-brands fa-whatsapp"></i>
+    </div>
+  </a>
+
+  <!-- MODAL CARRITO -->
+  <div class="cart-overlay" id="cartOverlay">
+    <aside class="cart-panel">
+      <div class="cart-header">
+        <h2>MI PEDIDO</h2>
+        <button id="closeCart" aria-label="Cerrar carrito">✕</button>
+      </div>
+      <div id="cartItems" class="cart-items"></div>
+      <div class="cart-footer">
+        <div class="total-row"><span>Total estimado:</span><strong id="cartTotal">$0</strong></div>
+        <button class="btn-whatsapp-hero full" id="sendOrder"><i class="fa-brands fa-whatsapp"></i> ENVIAR PEDIDO POR WHATSAPP</button>
+        <button class="secondary-btn full" id="clearCart">Vaciar carrito</button>
+      </div>
+    </aside>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

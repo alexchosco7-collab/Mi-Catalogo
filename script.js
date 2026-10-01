@@ -21,7 +21,7 @@ const productos = [
   { id: 12, nombre: "Nike Metcon 10", precio: 329999, categoria: "Zapatillas", talles: ["40","41","42","43","44"], imagen: "imgproductos/Nike+metcon+10.jfif" },
   { id: 13, nombre: "Calza / Remera Nike Pro Fit", precio: 69999, categoria: "Indumentaria", talles: ["S","M","L","XL"], imagen: "https://pngimg.com/d/running_shoes_PNG5816.png" },
   { id: 14, nombre: "Nike Air Max Plus Retro", precio: 359999, categoria: "Zapatillas", talles: ["40","41","42","43"], imagen: "https://pngimg.com/d/running_shoes_PNG5816.png" },
-  { id: 15, nombre: "Nike Metcon 10", precio: 329999, categoria: "Zapatillas", talles: ["40","41","42","43","44"], imagen: "imgproductos/Nike+metconH+10.jfif" },
+  { id: 15, nombre: "Nike Metcon 10", precio: 529999, categoria: "Zapatillas", talles: ["40","41","42","43","44"], imagen: "imgproductos/Nike+metconH+10.jfif" },
   { id: 16, nombre: "Nike Metcon 10", precio: 329999, categoria: "Zapatillas", talles: ["40","41","42","43","44"], imagen: "imgproductos/Nike+metconH1+10.WEBP" },
   { id: 17, nombre: "Nike Metcon 10", precio: 329999, categoria: "Zapatillas", talles: ["40","41","42","43","44"], imagen: "imgproductos/Nike+metconH12+10.WEBP" },
   { id: 18, nombre: "Nike Metcon 10", precio: 329999, categoria: "Zapatillas", talles: ["40","41","42","43","44"], imagen: "imgproductos/Nike+metconH13+10.jfif" },
